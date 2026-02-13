@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=",5qaiXrkt+vPmk2e6r%8">list</variable><variable id="ew$l{i7f)JV{QwXqa!-y">myImage</variable></variables><block type="pxt-on-start" id="M_@#ydpcUotVTNX%/t#I" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="OF7k6_|x,Avdi_izLbLw"><mutation name="SetDicePattern" functionid="rpZYgjYD/H82s*vj!92y"></mutation><next><block type="function_call" id="8d%cKmy,D]axJ#tmeN9("><mutation name="RollDice" functionid="TKB]++1D5AsZ$g-wtp$9"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="mJv%:G#VS:[GUR6wBfAV" x="233" y="4"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="nZpQ=_V0#*:z:zHCAZN8"><mutation name="RollDice" functionid="TKB]++1D5AsZ$g-wtp$9"></mutation></block></statement></block><block type="function_definition" id="CulQV@hnmi87Vv0?Hn`{" x="-1" y="203"><mutation name="SetDicePattern" functionid="rpZYgjYD/H82s*vj!92y"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="Dem:W(av70/FK?2.i8A]"><field name="VAR" id=",5qaiXrkt+vPmk2e6r%8">list</field><value name="VALUE"><block type="lists_create_with" id="b3bB7GinjU*!rog3B4}K" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="GkOYMxE1_wEB-%sf%!9a"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="o=AX9IC?$/!sx3_%ol0d"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="JW3M*ZXsgpn#W*u+_7bt"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id=",Ih~fa6l?3D+g_2x$iNX"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="u(8lbU5(,mxu#gP2GcAa"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id=";{vYm)Ki$3q*MUW!)Cfs"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="function_definition" id="|ktnm3x|+0PO8ls%V$v[" x="530" y="195"><mutation name="RollDice" functionid="TKB]++1D5AsZ$g-wtp$9"></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="W_Le2([t`u}*#!z^V3;("><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="o!-bWJbS2p.GkG89J+L)"><value name="LIST"><block type="variables_get" id=",#,B!5r,)t-d]/|PxNWQ"><field name="VAR" id=",5qaiXrkt+vPmk2e6r%8">list</field></block></value><value name="INDEX"><shadow type="math_number" id="c!VcG;lEznP-_;EM!Rtp"><field name="NUM">0</field></shadow><block type="device_random" id="Jdf%8GKON$6h1zh-yP)a"><value name="min"><shadow type="math_number" id="^`*tbEwHHCxCvuV=zP*;"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="w_xBd%UY1x3d@.{0mjBr"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="wC8LHehH){qnG6l$=5R!"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="F@%N[!:M.A?)leR8$Q.V"><field name="NUM">400</field></shadow></value></block></statement></block><block type="lists_create_with" id="8H8C[v9tuu5f]7b.y#SJ" disabled-reasons="pxt_automatic_disabled" x="333" y="418"><mutation items="0" horizontalafter="3"></mutation></block><block type="lists_create_with" id="Q@05mqn/zxZ{^Yqpy#2." disabled-reasons="pxt_automatic_disabled" x="250" y="460"><mutation items="0" horizontalafter="3"></mutation></block></xml>
